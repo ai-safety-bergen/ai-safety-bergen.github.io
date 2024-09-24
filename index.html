@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS for Responsive Design -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -28,6 +30,37 @@
             padding: 40px 20px;
             text-align: center;
         }
+        .discord-section {
+            background-color: #7289da;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .discord-section h2 {
+            margin-bottom: 20px;
+        }
+        .discord-button {
+            background-color: #5865F2;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+        }
+        .discord-button:hover {
+            background-color: #4752c4;
+            text-decoration: none;
+            color: white;
+        }
+        .discord-button i {
+            margin-right: 10px;
+            font-size: 1.5rem;
+        }
         .calendar {
             padding: 40px 20px;
             text-align: center;
@@ -45,16 +78,23 @@
             height: 600px;
             border: 0;
         }
+        /* Additional Styling for Links */
+        a {
+            color: #007bff;
+        }
+        a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
 
     <!-- Header Section -->
     <header class="header">
-        <!-- Placeholder for Logo -->
+        <!-- Updated Logo Reference -->
         <div id="logo-placeholder">
-            <!-- Replace the src attribute with your logo's path -->
-            <img src="./logo.png" alt="AI Safety Bergen Logo">
+            <img src="logo.png" alt="AI Safety Bergen Logo">
         </div>
         <h1>AI Safety Bergen</h1>
     </header>
@@ -66,12 +106,23 @@
         </p>
     </section>
 
+    <!-- Discord Section -->
+    <section class="discord-section container">
+        <h2>Stay Connected with Us!</h2>
+        <p>
+            Join our Discord community to engage with fellow members, stay updated on the latest AI safety discussions, and participate in exclusive events.
+        </p>
+        <a href="https://discord.gg/MKMUmqj2V4" target="_blank" rel="noopener noreferrer" class="discord-button">
+            <i class="fab fa-discord"></i> Join our Discord
+        </a>
+    </section>
+
     <!-- Calendar Section -->
     <section class="calendar container">
         <h2>Our Meetings</h2>
         <p>We meet every Thursday from 16:30 to 19:00 at <a href="https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=351:105O1" target="_blank" rel="noopener noreferrer">Høyteknologisenteret Aktivt rom 2 - Marineholmen</a></p>
         <!-- Embedded Google Calendar -->
-        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FOslo&bgcolor=%23ffffff&src=YWlzYWZldHliZXJnZW5AZ21haWwuY29t&color=%23039BE5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        <iframe src="https://calendar.google.com/calendar/embed?src=aisafetybergen%40gmail.com&ctz=Europe%2FOslo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </section>
 
     <!-- Footer Section -->
