@@ -54,7 +54,7 @@
         <!-- Placeholder for Logo -->
         <div id="logo-placeholder">
             <!-- Replace the src attribute with your logo's path -->
-            <img src="./logo.png" alt="AI Safety Bergen Logo">
+            <img src="https://via.placeholder.com/150x150.png?text=Logo" alt="AI Safety Bergen Logo">
         </div>
         <h1>AI Safety Bergen</h1>
     </header>
@@ -71,7 +71,7 @@
         <h2>Our Meetings</h2>
         <p>We meet every Thursday from 16:30 to 19:00 at <a href="https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=351:105O1" target="_blank" rel="noopener noreferrer">Høyteknologisenteret Aktivt rom 2 - Marineholmen</a></p>
         <!-- Embedded Google Calendar -->
-        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FOslo&bgcolor=%23ffffff&src=YWlzYWZldHliZXJnZW5AZ21haWwuY29t&color=%23039BE5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        <iframe src="https://calendar.google.com/calendar/embed?src=YOUR_CALENDAR_EMBED_LINK&ctz=Europe%2FOslo" style="border: 0" allowfullscreen></iframe>
     </section>
 
     <!-- Footer Section -->
