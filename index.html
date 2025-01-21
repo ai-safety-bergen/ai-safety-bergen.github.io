@@ -28,7 +28,8 @@
         }
         .description {
             padding: 40px 20px;
-            text-align: center;
+            text-align: left;
+            font-size: 1.2rem;
         }
         .discord-section {
             background-color: #7289da;
@@ -86,6 +87,20 @@
             color: #0056b3;
             text-decoration: underline;
         }
+        .course-section {
+            background-color: #f1f3f5;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+            margin: 40px 0;
+            padding: 40px 20px;
+        }
+        .course-section .card {
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .course-section .card:hover {
+            transform: translateY(-5px);
+        }
     </style>
 </head>
 <body>
@@ -102,8 +117,47 @@
     <!-- Description Section -->
     <section class="description container">
         <p>
-            AI Safety Bergen is a student organization dedicated to advancing research and initiatives in AI safety. We bring together individuals passionate about ensuring the safe and ethical development of artificial intelligence. Our current focus is on technical AI safety research, particularly in the area of mechanistic interpretability. Join us every Thursday to collaborate, learn, and contribute to meaningful AI safety efforts.
+            AI Safety Bergen is a student organization dedicated to advancing research and initiatives in AI safety. We bring together individuals passionate about ensuring the safe and ethical development of artificial intelligence. We host weekly meetups where members collaborate on technical AI safety research (particularly mechanistic interpretability), explore AI governance challenges, and engage in policy discussions. We also organize educational courses and community outreach events to raise awareness about AI safety in the Bergen community. Join us to learn, collaborate, and contribute to meaningful AI safety efforts.
         </p>
+    </section>
+
+    <!-- AI Fundamentals Courses Section -->
+    <section class="course-section">
+        <div class="container">
+            <h2>AI Fundamentals Course</h2>
+            <p>
+                We're excited to announce our AI Safety Fundamentals course! This is a 7-week program (shortened version of the BlueDot AI Safety Fundamentals course) where participants meet once per week in small discussion groups of 6 people, led by a facilitator. You'll be expected to spend 1-2 hours studying the provided materials before each session.
+            </p>
+            <div class="row mt-4">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">AI Alignment Track</h3>
+                            <p class="card-text">
+                                Focus on technological approaches to ensure AI safety. The curriculum covers key concepts in AI alignment and is available for preview at <a href="https://aisafetyfundamentals.com/alignment/" target="_blank" rel="noopener noreferrer">AI Safety Fundamentals - Alignment</a>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">AI Governance Track</h3>
+                            <p class="card-text">
+                                Explore legal and political interventions for safe AI development and deployment. Preview the curriculum at <a href="https://aisafetyfundamentals.com/governance/" target="_blank" rel="noopener noreferrer">AI Safety Fundamentals - Governance</a>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p><strong>Application deadline: February 1st</strong></p>
+                <p>Questions? Contact us at <a href="mailto:aisafetybergen@gmail.com">aisafetybergen@gmail.com</a></p>
+                <a href="https://forms.gle/Vvr44gnkiiwquov88" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
+                    Apply Now
+                </a>
+            </div>
+        </div>
     </section>
 
     <!-- Discord Section -->
@@ -119,8 +173,9 @@
 
     <!-- Calendar Section -->
     <section class="calendar container">
-        <h2>Our Meetings</h2>
-        <p>We meet every Thursday from 16:30 to 19:00 at <a href="https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=351:105O1" target="_blank" rel="noopener noreferrer">Høyteknologisenteret Aktivt rom 2 - Marineholmen</a></p>
+        <h2>Weekly Meetings</h2>
+        <p>We meet every Tuesday from 16:15 to 18:30 at <a href="https://use.mazemap.com/#v=1&config=uib-bergen&campusid=340&zlevel=1&center=5.330803,60.381353&zoom=18&sharepoitype=poi&sharepoi=1002031767" target="_blank" rel="noopener noreferrer">Aktivt rom 3 - Marineholmen</a></p>
+        <p>Our weekly meetings are open to everyone interested in AI safety. We typically spend time working on technical AI safety research projects, discussing recent developments in AI, and planning community initiatives. Whether you're new to AI safety or already involved in the field, you're welcome to join us for collaborative work and discussions!</p>
         <!-- Embedded Google Calendar -->
         <iframe src="https://calendar.google.com/calendar/embed?src=aisafetybergen%40gmail.com&ctz=Europe%2FOslo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </section>
